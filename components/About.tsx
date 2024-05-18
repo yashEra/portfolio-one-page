@@ -1,4 +1,3 @@
-import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
@@ -90,9 +89,9 @@ const About = () => {
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
-              <Image
+              <img
                 className="rounded-lg h-full object-cover"
-                src={profileImg}
+                src="https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/441179714_2746507308864341_5817944098945206154_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yWctUpqobT4Q7kNvgF6Ilx4&_nc_zt=23&_nc_ht=scontent.fcmb11-1.fna&oh=00_AYAto64rTI_Q5q_vgTYJBQ2JeNxXM-nP-IQay9CQyO73Vg&oe=664E2494"
                 alt="profileImg"
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
