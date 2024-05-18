@@ -11,16 +11,16 @@ const About = () => {
       <SectionTitle title="About Me" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-          <h1>Hello there! I'm Thimira Kalansooriya.</h1>
+          <h1>Hello there! I am Thimira Kalansooriya.</h1>
           <p>
-            Welcome to my corner of the digital world! I'm passionate about
+            Welcome to my corner of the digital world! I &lsquo m passionate about
             crafting engaging experiences on the web. My journey into web
             development began in 2012 with a curious dive into customizing
             Tumblr themes. Those early experiments, like tinkering with a
             bespoke reblog button, sparked my fascination with HTML & CSS.
           </p>
           <p>
-            Over the years, I've had the privilege of shaping digital landscapes
+            Over the years, I &lsquo ve had the privilege of shaping digital landscapes
             across diverse environments. From collaborating in advertising
             agencies and dynamic start-ups to contributing to the initiatives of
             large corporations and innovative student-led design studios, each
@@ -28,10 +28,10 @@ const About = () => {
           </p>
           <p>
             I thrive on the art of blending creativity with functionality.
-            Whether it's conceptualizing intuitive user interfaces or
-            meticulously crafting pixel-perfect front-end solutions, I'm
+            Whether it &lsquo s conceptualizing intuitive user interfaces or
+            meticulously crafting pixel-perfect front-end solutions, I &lsquo m
             dedicated to bringing ideas to life in ways that resonate with
-            audiences. Let's connect and create something extraordinary
+            audiences. Let &lsquo s connect and create something extraordinary
             together!
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
