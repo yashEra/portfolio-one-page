@@ -8,7 +8,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built" titleNo="03" />
+      <SectionTitle title="Featured Projects" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -73,10 +73,10 @@ const Projects = () => {
         </div>
         {/* ============ project One End here ================== */}
         {/* ============ project Two Start here ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
+        {/* <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="#"
             target="_blank"
           >
             <div>
@@ -134,10 +134,10 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ============ project Two End here ================== */}
         {/* ============ project Three Start here ============== */}
-        <div className="flex flex-col xl:flex-row gap-6">
+        {/* <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://noorshop.netlify.app/"
@@ -196,7 +196,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ============ project Three End here ================== */}
       </div>
     </section>

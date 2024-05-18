@@ -30,8 +30,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 4+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
+        I am a web developer with 4+ years of experience in Ui/UX Design and Front end Development. I have a
+        strong foundation in front-end and am skilled in
         creating user-friendly and responsive web applications using React and
         its ecosystem.{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
@@ -42,7 +42,7 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank">
+      <a href="https://github.com/" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

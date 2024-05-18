@@ -13,7 +13,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
+            Hello! My name is Thimira Kalansooriya and I enjoy creating things that
             live on the internet. My interest in web development started back in
             2012 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
@@ -42,7 +42,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              Figma
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -72,13 +72,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Express.js
+              JavaScript (ES6+)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              PHP
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
