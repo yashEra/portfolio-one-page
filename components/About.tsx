@@ -9,32 +9,31 @@ const About = () => {
       id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
-      <SectionTitle title="About Me" titleNo="01" />
+      <SectionTitle title="About Me" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+          <h1>Hello there! I'm Thimira Kalansooriya.</h1>
           <p>
-            Hello! My name is Thimira Kalansooriya and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Welcome to my corner of the digital world! I'm passionate about
+            crafting engaging experiences on the web. My journey into web
+            development began in 2012 with a curious dive into customizing
+            Tumblr themes. Those early experiments, like tinkering with a
+            bespoke reblog button, sparked my fascination with HTML & CSS.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+            Over the years, I've had the privilege of shaping digital landscapes
+            across diverse environments. From collaborating in advertising
+            agencies and dynamic start-ups to contributing to the initiatives of
+            large corporations and innovative student-led design studios, each
+            experience has enriched my understanding of user-centric design.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+            I thrive on the art of blending creativity with functionality.
+            Whether it's conceptualizing intuitive user interfaces or
+            meticulously crafting pixel-perfect front-end solutions, I'm
+            dedicated to bringing ideas to life in ways that resonate with
+            audiences. Let's connect and create something extraordinary
+            together!
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
