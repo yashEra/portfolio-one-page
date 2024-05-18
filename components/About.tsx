@@ -13,27 +13,27 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <h1>Hello there! I am Thimira Kalansooriya.</h1>
           <p>
-            Welcome to my corner of the digital world! I &lsquo m passionate about
+            Welcome to my corner of the digital world! I am passionate about
             crafting engaging experiences on the web. My journey into web
             development began in 2012 with a curious dive into customizing
             Tumblr themes. Those early experiments, like tinkering with a
             bespoke reblog button, sparked my fascination with HTML & CSS.
           </p>
           <p>
-            Over the years, I &lsquo ve had the privilege of shaping digital landscapes
+            Over the years, I have had the privilege of shaping digital landscapes
             across diverse environments. From collaborating in advertising
             agencies and dynamic start-ups to contributing to the initiatives of
             large corporations and innovative student-led design studios, each
             experience has enriched my understanding of user-centric design.
           </p>
-          <p>
+          {/* <p>
             I thrive on the art of blending creativity with functionality.
             Whether it &lsquo s conceptualizing intuitive user interfaces or
             meticulously crafting pixel-perfect front-end solutions, I &lsquo m
             dedicated to bringing ideas to life in ways that resonate with
             audiences. Let &lsquo s connect and create something extraordinary
             together!
-          </p>
+          </p> */}
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
