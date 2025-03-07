@@ -1,5 +1,8 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react"
+import Projects from "./Projects";
+import PowerBIProjects from "./PowerBIProjects";
+import UIUXProjects from "./UIUXProjects";
 
 export default function ProjectTabs() {
   const [tabSelected, setTabSelected] = useState({
@@ -140,6 +143,7 @@ export default function ProjectTabs() {
             aria-labelledby="tab-label-1a"
             tabindex="-1"
           >
+            <Projects />
           </div>
           <div
             className={`px-6 py-4 ${
@@ -151,12 +155,7 @@ export default function ProjectTabs() {
             aria-labelledby="tab-label-2a"
             tabindex="-1"
           >
-            <p>
-              One must be entirely sensitive to the structure of the material
-              that one is handling. One must yield to it in tiny details of
-              execution, perhaps the handling of the surface or grain, and one
-              must master it as a whole.
-            </p>
+            <PowerBIProjects />
           </div>
           <div
             className={`px-6 py-4 ${
@@ -168,12 +167,7 @@ export default function ProjectTabs() {
             aria-labelledby="tab-label-3a"
             tabindex="-1"
           >
-            <p>
-              Even though there is no certainty that the expected results of our
-              work will manifest, we have to remain committed to our work and
-              duties; because, even if the results are slated to arrive, they
-              cannot do so without the performance of work.
-            </p>
+            <UIUXProjects />
           </div>
         </div>
       </section>
