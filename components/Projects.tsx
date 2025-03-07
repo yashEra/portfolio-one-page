@@ -12,10 +12,9 @@ const projectData = [
       "https://yasith.art/assests/images/university-projects/tokenG10.png",
     techStack: ["JavaFx", "Java", "Hibernate"],
     githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "", // Add demo link if available
+    demoLink: "",
     projectType: "1st Year Java Project",
   },
-  // Add more projects here as needed
 ];
 
 const Projects = () => {
