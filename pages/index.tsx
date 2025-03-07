@@ -10,6 +10,7 @@ import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
+import ProjectTabs from "@/components/ProjectTabs";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
             <About />
+            <ProjectTabs />
             <Experience />
             <Projects />
             <Archive />
