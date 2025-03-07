@@ -107,7 +107,7 @@ export default function ProjectTabs() {
               }`}
               onClick={() => setTabSelected({ ...tabSelected, currentTab: 2 })}
             >
-              <span>Tab 2</span>
+              <span>Power BI Project</span>
             </button>
           </li>
           <li className="" role="presentation">
@@ -128,7 +128,7 @@ export default function ProjectTabs() {
               }`}
               onClick={() => setTabSelected({ ...tabSelected, currentTab: 3 })}
             >
-              <span>Tab 3</span>
+              <span>UI/UX Projects</span>
             </button>
           </li>
         </ul>
