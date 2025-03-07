@@ -15,6 +15,39 @@ const projectData = [
     demoLink: "",
     projectType: "1st Year Java Project",
   },
+  {
+    title: "Tocken Generation System",
+    description:
+      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+    imageUrl:
+      "https://yasith.art/assests/images/university-projects/tokenG10.png",
+    techStack: ["JavaFx", "Java", "Hibernate"],
+    githubLink: "https://github.com/yashEra/tokenG10",
+    demoLink: "",
+    projectType: "1st Year Java Project",
+  },
+  {
+    title: "Tocken Generation System",
+    description:
+      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+    imageUrl:
+      "https://yasith.art/assests/images/university-projects/tokenG10.png",
+    techStack: ["JavaFx", "Java", "Hibernate"],
+    githubLink: "https://github.com/yashEra/tokenG10",
+    demoLink: "",
+    projectType: "1st Year Java Project",
+  },
+  {
+    title: "Tocken Generation System",
+    description:
+      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+    imageUrl:
+      "https://yasith.art/assests/images/university-projects/tokenG10.png",
+    techStack: ["JavaFx", "Java", "Hibernate"],
+    githubLink: "https://github.com/yashEra/tokenG10",
+    demoLink: "",
+    projectType: "1st Year Java Project",
+  },
 ];
 
 const Projects = () => {
