@@ -5,7 +5,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const projectData = [
   {
-    title: "Fast Food Delivery App UI Design",
+    title: "Fast Food Delivery App",
     description:
       "Modern & Appetizing DesignDesigned a visually enticing interface that reflects the vibrant essence of fast food, blending modern aesthetics with an appetizing appeal.",
     imageUrl:
