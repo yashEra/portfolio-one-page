@@ -20,11 +20,12 @@ const About = () => {
             bespoke reblog button, sparked my fascination with HTML & CSS.
           </p>
           <p>
-            Over the years, I have had the privilege of shaping digital landscapes
-            across diverse environments. From collaborating in advertising
-            agencies and dynamic start-ups to contributing to the initiatives of
-            large corporations and innovative student-led design studios, each
-            experience has enriched my understanding of user-centric design.
+            Over the years, I have had the privilege of shaping digital
+            landscapes across diverse environments. From collaborating in
+            advertising agencies and dynamic start-ups to contributing to the
+            initiatives of large corporations and innovative student-led design
+            studios, each experience has enriched my understanding of
+            user-centric design.
           </p>
           {/* <p>
             I thrive on the art of blending creativity with functionality.
@@ -40,49 +41,73 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              ISTQB (Learning)
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              JAVA
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Selenium
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              SQL
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              HTML
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              GitHub
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              PowerBI
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Figma
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Next.js
+              Prototyping
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              Canva
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Node.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              TypeScript
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              JavaScript (ES6+)
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              PHP
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Tailwindcss
+              RESEARCH
             </li>
           </ul>
         </div>
