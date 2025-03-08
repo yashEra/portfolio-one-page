@@ -6,20 +6,14 @@ import UIUXProjects from "./UIUXProjects";
 
 const ProjectTabs = () => {
   const wrapperRef = useRef<HTMLUListElement>(null);
-  const [tabSelected, setTabSelected] = useState<{
-    currentTab: number;
-    noTabs: number;
-  }>({
+  const [tabSelected, setTabSelected] = useState<{ currentTab: number; noTabs: number }>({
     currentTab: 1,
     noTabs: 3, // Change this based on the actual number of tabs
   });
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (
-        !wrapperRef.current ||
-        !wrapperRef.current.contains(document.activeElement)
-      ) {
+      if (!wrapperRef.current || !wrapperRef.current.contains(document.activeElement)) {
         return;
       }
 
@@ -48,11 +42,7 @@ const ProjectTabs = () => {
     <>
       {/* Component: Basic lg sized tab */}
       <section className="max-w-full" aria-multiselectable="false">
-        <ul
-          className="flex items-center border-b border-slate-200"
-          role="tablist"
-          ref={wrapperRef}
-        >
+        <ul className="flex items-center border-b border-slate-200" role="tablist" ref={wrapperRef}>
           <li role="presentation">
             <button
               className={`-mb-px inline-flex h-12 w-full items-center justify-center gap-2 whitespace-nowrap rounded-t border-b-2 px-6 text-sm font-medium tracking-wide transition duration-300 hover:bg-emerald-50 hover:stroke-emerald-600 focus:bg-emerald-50 focus-visible:outline-none disabled:cursor-not-allowed ${
@@ -62,8 +52,8 @@ const ProjectTabs = () => {
               }`}
               id="tab-label-1a"
               role="tab"
-              aria-setsize="3"
-              aria-posinset="1"
+              aria-setsize={3} // Change to a number (no quotes)
+              aria-posinset={1} // Change to a number (no quotes)
               tabIndex={tabSelected.currentTab === 1 ? 0 : -1}
               aria-controls="tab-panel-1a"
               aria-selected={tabSelected.currentTab === 1}
@@ -81,8 +71,8 @@ const ProjectTabs = () => {
               }`}
               id="tab-label-2a"
               role="tab"
-              aria-setsize="3"
-              aria-posinset="2"
+              aria-setsize={3} // Change to a number (no quotes)
+              aria-posinset={2} // Change to a number (no quotes)
               tabIndex={tabSelected.currentTab === 2 ? 0 : -1}
               aria-controls="tab-panel-2a"
               aria-selected={tabSelected.currentTab === 2}
@@ -100,8 +90,8 @@ const ProjectTabs = () => {
               }`}
               id="tab-label-3a"
               role="tab"
-              aria-setsize="3"
-              aria-posinset="3"
+              aria-setsize={3} // Change to a number (no quotes)
+              aria-posinset={3} // Change to a number (no quotes)
               tabIndex={tabSelected.currentTab === 3 ? 0 : -1}
               aria-controls="tab-panel-3a"
               aria-selected={tabSelected.currentTab === 3}
@@ -113,11 +103,9 @@ const ProjectTabs = () => {
         </ul>
         <div className="">
           <div
-            className={`px-6 py-4 ${
-              tabSelected.currentTab === 1 ? "" : "hidden"
-            }`}
+            className={`px-6 py-4 ${tabSelected.currentTab === 1 ? "" : "hidden"}`}
             id="tab-panel-1a"
-            aria-hidden={tabSelected.currentTab !== 1}
+            aria-hidden={tabSelected.currentTab === 1 ? "false" : "true"}
             role="tabpanel"
             aria-labelledby="tab-label-1a"
             tabIndex={-1}
@@ -125,11 +113,9 @@ const ProjectTabs = () => {
             <Projects />
           </div>
           <div
-            className={`px-6 py-4 ${
-              tabSelected.currentTab === 2 ? "" : "hidden"
-            }`}
+            className={`px-6 py-4 ${tabSelected.currentTab === 2 ? "" : "hidden"}`}
             id="tab-panel-2a"
-            aria-hidden={tabSelected.currentTab !== 2}
+            aria-hidden={tabSelected.currentTab === 2 ? "false" : "true"}
             role="tabpanel"
             aria-labelledby="tab-label-2a"
             tabIndex={-1}
@@ -137,11 +123,9 @@ const ProjectTabs = () => {
             <PowerBIProjects />
           </div>
           <div
-            className={`px-6 py-4 ${
-              tabSelected.currentTab === 3 ? "" : "hidden"
-            }`}
+            className={`px-6 py-4 ${tabSelected.currentTab === 3 ? "" : "hidden"}`}
             id="tab-panel-3a"
-            aria-hidden={tabSelected.currentTab !== 3}
+            aria-hidden={tabSelected.currentTab === 3 ? "false" : "true"}
             role="tabpanel"
             aria-labelledby="tab-label-3a"
             tabIndex={-1}
