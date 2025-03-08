@@ -6,14 +6,20 @@ import UIUXProjects from "./UIUXProjects";
 
 const ProjectTabs = () => {
   const wrapperRef = useRef<HTMLUListElement>(null);
-  const [tabSelected, setTabSelected] = useState({
+  const [tabSelected, setTabSelected] = useState<{
+    currentTab: number;
+    noTabs: number;
+  }>({
     currentTab: 1,
     noTabs: 3, // Change this based on the actual number of tabs
   });
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!wrapperRef.current || !wrapperRef.current.contains(document.activeElement)) {
+      if (
+        !wrapperRef.current ||
+        !wrapperRef.current.contains(document.activeElement)
+      ) {
         return;
       }
 
@@ -40,14 +46,14 @@ const ProjectTabs = () => {
 
   return (
     <>
-      {/*<!-- Component: Basic lg sized tab --> */}
+      {/* Component: Basic lg sized tab */}
       <section className="max-w-full" aria-multiselectable="false">
         <ul
           className="flex items-center border-b border-slate-200"
           role="tablist"
           ref={wrapperRef}
         >
-          <li className="" role="presentation">
+          <li role="presentation">
             <button
               className={`-mb-px inline-flex h-12 w-full items-center justify-center gap-2 whitespace-nowrap rounded-t border-b-2 px-6 text-sm font-medium tracking-wide transition duration-300 hover:bg-emerald-50 hover:stroke-emerald-600 focus:bg-emerald-50 focus-visible:outline-none disabled:cursor-not-allowed ${
                 tabSelected.currentTab === 1
@@ -58,17 +64,15 @@ const ProjectTabs = () => {
               role="tab"
               aria-setsize="3"
               aria-posinset="1"
-              tabindex={`${tabSelected.currentTab === 1 ? "0" : "-1"}`}
+              tabIndex={tabSelected.currentTab === 1 ? 0 : -1}
               aria-controls="tab-panel-1a"
-              aria-selected={`${
-                tabSelected.currentTab === 1 ? "true" : "false"
-              }`}
+              aria-selected={tabSelected.currentTab === 1}
               onClick={() => setTabSelected({ ...tabSelected, currentTab: 1 })}
             >
               <span>Software Projects</span>
             </button>
           </li>
-          <li className="" role="presentation">
+          <li role="presentation">
             <button
               className={`-mb-px inline-flex h-12 w-full items-center justify-center gap-2 whitespace-nowrap rounded-t border-b-2 px-6 text-sm font-medium tracking-wide transition duration-300 hover:bg-emerald-50 hover:stroke-emerald-600 focus:bg-emerald-50 focus-visible:outline-none disabled:cursor-not-allowed ${
                 tabSelected.currentTab === 2
@@ -79,17 +83,15 @@ const ProjectTabs = () => {
               role="tab"
               aria-setsize="3"
               aria-posinset="2"
-              tabindex={`${tabSelected.currentTab === 2 ? "0" : "-1"}`}
+              tabIndex={tabSelected.currentTab === 2 ? 0 : -1}
               aria-controls="tab-panel-2a"
-              aria-selected={`${
-                tabSelected.currentTab === 2 ? "true" : "false"
-              }`}
+              aria-selected={tabSelected.currentTab === 2}
               onClick={() => setTabSelected({ ...tabSelected, currentTab: 2 })}
             >
               <span>Power BI Projects</span>
             </button>
           </li>
-          <li className="" role="presentation">
+          <li role="presentation">
             <button
               className={`-mb-px inline-flex h-12 w-full items-center justify-center gap-2 whitespace-nowrap rounded-t border-b-2 px-6 text-sm font-medium tracking-wide transition duration-300 hover:bg-emerald-50 hover:stroke-emerald-600 focus:bg-emerald-50 focus-visible:outline-none disabled:cursor-not-allowed ${
                 tabSelected.currentTab === 3
@@ -99,12 +101,10 @@ const ProjectTabs = () => {
               id="tab-label-3a"
               role="tab"
               aria-setsize="3"
-              aria-posinset="2"
-              tabindex={`${tabSelected.currentTab === 3 ? "0" : "-1"}`}
-              aria-controls="tab-panel-2a"
-              aria-selected={`${
-                tabSelected.currentTab === 3 ? "true" : "false"
-              }`}
+              aria-posinset="3"
+              tabIndex={tabSelected.currentTab === 3 ? 0 : -1}
+              aria-controls="tab-panel-3a"
+              aria-selected={tabSelected.currentTab === 3}
               onClick={() => setTabSelected({ ...tabSelected, currentTab: 3 })}
             >
               <span>UI/UX Projects</span>
@@ -117,10 +117,10 @@ const ProjectTabs = () => {
               tabSelected.currentTab === 1 ? "" : "hidden"
             }`}
             id="tab-panel-1a"
-            aria-hidden={`${tabSelected.currentTab === 1 ? "true" : "false"}`}
+            aria-hidden={tabSelected.currentTab !== 1}
             role="tabpanel"
             aria-labelledby="tab-label-1a"
-            tabindex="-1"
+            tabIndex={-1}
           >
             <Projects />
           </div>
@@ -129,10 +129,10 @@ const ProjectTabs = () => {
               tabSelected.currentTab === 2 ? "" : "hidden"
             }`}
             id="tab-panel-2a"
-            aria-hidden={`${tabSelected.currentTab === 2 ? "true" : "false"}`}
+            aria-hidden={tabSelected.currentTab !== 2}
             role="tabpanel"
             aria-labelledby="tab-label-2a"
-            tabindex="-1"
+            tabIndex={-1}
           >
             <PowerBIProjects />
           </div>
@@ -141,16 +141,18 @@ const ProjectTabs = () => {
               tabSelected.currentTab === 3 ? "" : "hidden"
             }`}
             id="tab-panel-3a"
-            aria-hidden={`${tabSelected.currentTab === 3 ? "true" : "false"}`}
+            aria-hidden={tabSelected.currentTab !== 3}
             role="tabpanel"
             aria-labelledby="tab-label-3a"
-            tabindex="-1"
+            tabIndex={-1}
           >
             <UIUXProjects />
           </div>
         </div>
       </section>
-      {/*<!-- End Basic lg sized tab --> */}
+      {/* End Basic lg sized tab */}
     </>
-  )
-}
+  );
+};
+
+export default ProjectTabs;
