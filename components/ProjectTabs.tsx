@@ -5,7 +5,7 @@ import PowerBIProjects from "./PowerBIProjects";
 import UIUXProjects from "./UIUXProjects";
 
 const ProjectTabs = () => {
-  const wrapperRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLUListElement>(null);
   const [tabSelected, setTabSelected] = useState({
     currentTab: 1,
     noTabs: 3, // Change this based on the actual number of tabs
