@@ -5,48 +5,26 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const projectData = [
   {
-    title: "Tocken Generation System",
+    title: "Fast Food Delivery App UI Design",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "Modern & Appetizing DesignDesigned a visually enticing interface that reflects the vibrant essence of fast food, blending modern aesthetics with an appetizing appeal.",
     imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
+      "assets/images/uiux-1.jpg",
+    techStack: ["Figma"],
+    // githubLink: "#",
     demoLink: "",
-    projectType: "1st Year Java Project",
+    // projectType: "1st Year Java Project",
   },
   {
-    title: "Tocken Generation System",
+    title: "Parking Management System",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "Sleek & Functional DesignDeveloped a modern and intuitive interface that enhances the parking experience with clear navigation and a visually appealing layout.",
     imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
+      "assets/images/uiux-2.jpg",
+    techStack: ["Figma"],
+    // githubLink: "#",
     demoLink: "",
-    projectType: "1st Year Java Project",
-  },
-  {
-    title: "Tocken Generation System",
-    description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
-    imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
-  },
-  {
-    title: "Tocken Generation System",
-    description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
-    imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
+    // projectType: "1st Year Java Project",
   },
 ];
 
