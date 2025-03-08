@@ -5,48 +5,26 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const projectData = [
   {
-    title: "Tocken Generation System",
+    title: "HR Analytics Dashboard",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "Transforming HR Data into Actionable Insights Introducing my HR Analytics Dashboard, a dynamic and interactive solution built with Power BI to help HR teams make data-driven decisions with ease.",
     imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
+      "assets/images/pbi-1.jpg",
+    techStack: ["Power BI", "DAX (Data Analysis Expressions)", "Data Modeling"],
+    githubLink: "#",
+    demoLink: "https://www.linkedin.com/posts/thimirakalansooriya_dax-dataanalytics-powerbi-activity-7278356356032602112-JCKH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRtKIYBBYm15hLm4R_rSUOjqmu7K4mQNTI",
+    // projectType: "1st Year DAX (Data Analysis Expressions) Project",
   },
   {
-    title: "Tocken Generation System",
+    title: "Player Performance Analytics Dashboard",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "This interactive Player Performance Analytics Dashboard provides in-depth insights into a cricket player's performance. It presents key metrics in a visually appealing and easy-to-understand format, making data-driven analysis effortless.",
     imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
-  },
-  {
-    title: "Tocken Generation System",
-    description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
-    imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
-  },
-  {
-    title: "Tocken Generation System",
-    description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
-    imageUrl:
-      "https://yasith.art/assests/images/university-projects/tokenG10.png",
-    techStack: ["JavaFx", "Java", "Hibernate"],
-    githubLink: "https://github.com/yashEra/tokenG10",
-    demoLink: "",
-    projectType: "1st Year Java Project",
+      "assets/images/pbi-2.jpg",
+    techStack: ["Power BI", "DAX (Data Analysis Expressions)", "Data Modeling"],
+    githubLink: "#",
+    demoLink: "https://www.linkedin.com/posts/thimirakalansooriya_dax-dataanalytics-powerbi-activity-7278356356032602112-JCKH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRtKIYBBYm15hLm4R_rSUOjqmu7K4mQNTI",
+    // projectType: "1st Year Java Project",
   },
 ];
 
