@@ -16,9 +16,9 @@ const projectData = [
     projectType: "3rd Year Project",
   },
   {
-    title: "TrendHire - Job Application Portal (JSP | Servlet)",
+    title: "TrendHire - Job Application Portal",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "Developed using React, Spring Boot, Tailwind CSS, and Bootstrap, this system combines modern technology with Ayurveda to provide an enhanced healthcare experience.",
     imageUrl:
       "assets/images/sw-2.jpg",
     techStack: ["JSP", "Servlet", "MySQL"],
@@ -29,7 +29,7 @@ const projectData = [
   {
     title: "Tocken Generation System",
     description:
-      "The ongoing crisis in Sri Lanka, marked by a severe shortage of foreign currency, has led to skyrocketing prices of essential goods, particularly food, plunging many into hunger. Fuel restrictions have cascading effects, disrupting livelihoods and causing chaos in transportation. The introduction of Token G07 aims to alleviate the lengthy fuel queues, providing a vital solution to a pressing issue.",
+      "Developed an Online Job Application Portal as part of my 2nd-year Rapid Application Development course. Utilizing JSP and Servlets, I helped build a dynamic, user-friendly platform connecting job seekers and employers.",
     imageUrl:
       "https://yasith.art/assests/images/university-projects/tokenG10.png",
     techStack: ["JavaFx", "Java", "Hibernate", "MySQL"],
