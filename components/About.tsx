@@ -91,7 +91,7 @@ const About = () => {
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <img
                 className="rounded-lg h-full object-cover"
-                src="https://scontent.fcmb11-1.fna.fbcdn.net/v/t39.30808-6/441179714_2746507308864341_5817944098945206154_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yWctUpqobT4Q7kNvgF6Ilx4&_nc_zt=23&_nc_ht=scontent.fcmb11-1.fna&oh=00_AYAto64rTI_Q5q_vgTYJBQ2JeNxXM-nP-IQay9CQyO73Vg&oe=664E2494"
+                src="assets/images/profile.jpg"
                 alt="profileImg"
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
