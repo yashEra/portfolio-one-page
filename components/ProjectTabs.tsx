@@ -1,63 +1,42 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react"
+import { useEffect, useRef, useState } from "react";
 import Projects from "./Projects";
 import PowerBIProjects from "./PowerBIProjects";
 import UIUXProjects from "./UIUXProjects";
 
-export default function ProjectTabs() {
+const ProjectTabs = () => {
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const [tabSelected, setTabSelected] = useState({
     currentTab: 1,
-    noTabs: 3,
-  })
-
-  const wrapperRef = useRef(null)
-
-  const handleKeyDown = e => {
-    if (e.keyCode === 39) {
-      if (wrapperRef.current && wrapperRef.current.contains(e.target)) {
-        if (
-          tabSelected.currentTab >= 1 &&
-          tabSelected.currentTab < tabSelected.noTabs
-        ) {
-          setTabSelected({
-            ...tabSelected,
-            currentTab: tabSelected.currentTab + 1,
-          })
-        } else {
-          setTabSelected({
-            ...tabSelected,
-            currentTab: 1,
-          })
-        }
-      }
-    }
-
-    if (e.keyCode === 37) {
-      if (wrapperRef.current && wrapperRef.current.contains(e.target)) {
-        if (
-          tabSelected.currentTab > 1 &&
-          tabSelected.currentTab <= tabSelected.noTabs
-        ) {
-          setTabSelected({
-            ...tabSelected,
-            currentTab: tabSelected.currentTab - 1,
-          })
-        } else {
-          setTabSelected({
-            ...tabSelected,
-            currentTab: tabSelected.noTabs,
-          })
-        }
-      }
-    }
-  }
+    noTabs: 3, // Change this based on the actual number of tabs
+  });
 
   useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown)
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!wrapperRef.current || !wrapperRef.current.contains(document.activeElement)) {
+        return;
+      }
+
+      if (e.key === "ArrowRight") {
+        setTabSelected((prev) => ({
+          ...prev,
+          currentTab: prev.currentTab < prev.noTabs ? prev.currentTab + 1 : 1,
+        }));
+      }
+
+      if (e.key === "ArrowLeft") {
+        setTabSelected((prev) => ({
+          ...prev,
+          currentTab: prev.currentTab > 1 ? prev.currentTab - 1 : prev.noTabs,
+        }));
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
     return () => {
-      window.removeEventListener("keydown", handleKeyDown)
-    }
-  })
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
 
   return (
     <>

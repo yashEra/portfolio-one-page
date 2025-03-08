@@ -51,9 +51,9 @@ const UIUXProjects = () => {
             </a>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <div>
-                <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                {/* <p className="font-titleFont text-textGreen text-sm tracking-wide">
                   {project.projectType}
-                </p>
+                </p> */}
                 <h3 className="text-2xl font-bold">{project.title}</h3>
               </div>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
@@ -65,13 +65,13 @@ const UIUXProjects = () => {
                 ))}
               </ul>
               <div className="text-2xl flex gap-4">
-                <a
+                {/* <a
                   className="hover:text-textGreen duration-300"
                   href={project.githubLink}
                   target="_blank"
                 >
                   <TbBrandGithub />
-                </a>
+                </a> */}
                 {project.demoLink && (
                   <a
                     className="hover:text-textGreen duration-300"
