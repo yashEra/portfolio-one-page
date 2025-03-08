@@ -38,7 +38,7 @@ export default function Home() {
             <Experience />
             <ProjectTabs />
             {/* <Projects /> */}
-            <Archive />
+            {/* <Archive /> */}
             <Contact />
             <Footer />
           </div>
